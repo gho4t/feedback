@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+
+h1, h2, h3, h4, h5,  p {
+    font-family: 'Pangolin', cursive;
+}

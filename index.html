@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Send an email.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel = "stylesheet" href = "https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles.css" />
+    <script src="./main.js"></script>
+
+</head>
+<body>
+    <div class = "container">
+<h1 style = "font-size:80px"><center>Send an email.</center></h1><br>
+
+<center><h1>Topic</h1></center>
+<input type = "text" class="form-control" id="topic" placeholder="Specify a header. Is the feedback on a website I made? Explain!"></textarea><br>
+
+<center><h1>Description</h1></center>
+<div class="col-md-7">
+<textarea class="form-control" id="process" placeholder="Feedback? Reports? Put it here! All results will be sent to the Owner. (AlexHGaming)"></textarea><br>
+
+<button type = "button" onclick = "processor()" class = "btn btn-primary btn-lg">Submit</button><br><br>
+<h5 id = "error" style = "color: orange;"></h2><br><br>
+<h3 style = "color:red;">* This is done through client JavaScript's <code>mailto</code> method - the server side is not required for these results.</h3>
+<noscript>Yo! Your JavaScript isn't even enabled! Your browser needs to support it in order to use this page.</noscript>
+</p>
+</div>
+</body>
+</html>
